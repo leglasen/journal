@@ -1,0 +1,318 @@
+\documentclass[a4paper]{article}
+% \usepackage[francais]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{datetime}
+\usepackage{lmodern}
+\usepackage{hyphenat}
+\usepackage{microtype}
+\usepackage{newspaper}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{picinpar}
+\usepackage{newspaper-mod}
+\usepackage{lipsum}
+\usepackage{epigraph}
+\usepackage{blindtext}
+\usepackage[footnote,printonlyused]{acronym}
+\usepackage{scrextend}
+\usepackage{bookmark}
+\usepackage[textwidth=20cm,textheight=28.7cm]{geometry}
+
+\usepackage{graphicx}
+\graphicspath{ {assets/images/} }
+
+\usepackage[
+  backend=bibtex,
+  sorting=none
+]{biblatex}
+\addbibresource{bibliographie.bib}
+\AtNextBibliography{\footnotesize}
+
+\setlength{\footnotesep}{0cm}
+\setlength{\skip\footins}{0cm}
+\date{Le vendredi 03 septembre 2021}
+\currentvolume{2}
+\currentissue{2}
+\SetPaperName{Le Glas:en}
+\SetHeaderName{Le Glasen}
+\SetPaperLocation{France Libre}
+\SetPaperSlogan{Sonnons le glas de la soumission et de l'indignité}
+\SetPaperPrice{Hebdomadaire de Réinformation Gratuit}
+\thispagestyle{empty}
+\pagenumbering{gobble}
+
+\deffootnote[1.0em]{3.2em}{10em}
+{\textsuperscript{\thefootnotemark}\,\enskip}
+
+\begin{document}
+
+\begin{multicols}{3}
+
+  \begin{center}
+    \vspace*{1cm}
+            {\textgoth{\fontsize{15}{60}\selectfont\usefont{LYG}{bigygoth}{m}{n}Le Glas:en}}\hfill \\
+            \vspace{0.1cm}
+            \footnotesize{Sonnons le Glas de la Soumission}
+  \end{center}
+  
+  \vspace*{0.1in}
+  \begin{center}
+    \MakeUppercase{\small 03 septembre 2021 \\ Volume n°2}\hfill \\
+    \vspace*{0.2in}
+
+    \begin{minipage}{5cm}
+      \begin{center}
+        \noindent «La philosophie nous enseigne à douter de ce qui nous
+        paraît évident. La propagande, au contraire, nous enseigne à
+        accepter pour évident ce dont il serait raisonnable de douter.»
+        -- Aldous Huxley
+      \end{center}
+    \vspace*{1cm}
+    \end{minipage}
+    
+    % \vspace*{0.1in}
+    \vspace*{-16pt}
+    \rule[1pt]{\hsize}{1pt}
+  \end{center}
+
+  \headline{Traitement Génique}
+
+  La pharmacovigilance de l'Union Européenne ADR Reports
+  \cite{AdrReports}, regroupant les remontées des pays membres, met à
+  jour ses données tous les samedi matin. En date du samedi 28 août
+  2021, \textbf{23252 décès} ont été déclarés ainsi que \textbf{580050
+    effets indésirables non résolus}, \textbf{904943 effets
+    indésirables résolus}, \textbf{26667 effets indésirables résolus
+    avec séquelles}, \textbf{501802 effets indésirables en cours de
+    résolution} et \textbf{373916 effets indésirables dont le statut
+    est inconnu}. Au moment de l'extraction de ces données, selon le
+  site Vaccine Tracker \cite{VaccineTracker}, environ 281 millions
+  d'européens ont reçu une première injection, et environ 250 millions
+  d'européens ont reçu deux injections.
+
+  Les rapports d'effets indésirables aux États-Unis se font au moyen
+  du système VAERS \cite{OpenVaers}, dont la base de données est
+  alimentée par la FDA et le CDC. En date du 20 août 2021,
+  \textbf{623341 déclarations} ont été remontées, dont \textbf{13627
+    décès}, \textbf{55821 hospitalisations}, \textbf{74368
+    hospitalisations en urgences}, \textbf{100966 visites médicales},
+  \textbf{5721 chocs anaphylactiques}, \textbf{4721 paralysies de
+    Bell}, \textbf{1671 fausse-couches}, \textbf{6071 arrêts
+    cardiaques}, \textbf{5093 myocardites}, \textbf{17794 invalides à
+    vie}, \textbf{2831 cas de thromboses}, \textbf{25921 réactions
+    allergiques graves} et \textbf{7324 zonas}. Au 31 août, environ
+  205 millions de personnes ont reçu une dose et environ 174 millions
+  ont reçus 2 injections \cite{UsaFacts}.
+
+  Au Royaume-Uni, les données sont remontées au moyen du système
+  Yellow Card\cite{YellowCardReport}. Les derniers rapports datent du
+  18 août 2021, et n'ont pas évolué depuis le dernier numéro. Pour
+  rappel, environ 46 millions de premières doses ont été injectées et
+  environ 40 millions de citoyens britanniques ont reçu une seconde
+  injection. \textbf{302146 effets indésirables} dont \textbf{506
+    décès} ont été remontés pour le produit de Pfizer, \textbf{229134
+    effets indésirables} dont \textbf{1056 décès} ont été remontés
+  pour le produit issu d'Astrazeneca, \textbf{14019 effets
+    indésirables} dont \textbf{17 décès} ont été déclarés pour le
+  produit de chez Moderna, et \textbf{1036 remontés} dont \textbf{28
+    décès} pour des produits d'origine inconnue.
+
+  L'Australie reporte les effets indésirables au moyen du DAEN
+  \cite{Australia:DAEN} pour 3 traitements géniques (Pfizer,
+  Astrazeneca, Moderna). En date du 17 août 2021, \textbf{49570
+    déclarations} ont été remontées dont \textbf{465 décès}. Dans ces
+  rapports, outre les réactions “classiques”, 1163 douleurs
+  thoraciques, 1632 cas de douleurs aux extrémités, 716 cas d'embolies
+  pulmonaires, 778 cas thromboses veineuses, 633 cas de vision
+  troublées ou encore 445 chocs anaphylactiques.
+
+  Le Medeffect \cite{Canada:CVAROD} est en charge de la collecte des
+  effets indésirables au Canada. En date du 28 aout 2021, cette entité
+  a reçu \textbf{649 déclarations}, dont \textbf{15 décès} pour
+  environ 53 millions de doses administrées. La pharmacovigilance de
+  l'Afrique du Sud se nomme quant à elle AEFI \cite{SouthAfrica:AEFI}
+  et est gérée par la SAHPRA.  En date du 30 août 2021, environ 12
+  millions de doses ont été administrées, soit 2,7 millions de doses
+  du vaccin Janssen et 9,5 millions de doses du vaccin Pfizer. Les
+  derniers rapports de l'AEFI datent du 13 août 2021, \textbf{1932
+    effets indésirables} ont été déclarés dont \textbf{58 décès
+    suspectés}.
+
+  À noter que les chiffres présentés ici sont à mettre en
+  perspective. Entre \textbf{1 et 10\% des déclarations sont
+    réellement remontées} \cite{Study:UnderReporting} dans les données
+  de pharmacovigilance par les différents acteurs. De plus, ces
+  traitements, après avoir passé les phases 1 et 2, sont désormais en
+  phase 3 des tests. Cette phase correspond à un test grandeur nature
+  se déroulant sur plusieurs années. Ce test est important pour savoir
+  si le produit est fonctionnel, a un effet positif sur l'immunité,
+  mais aussi pour s'assurer qu'il n'y ait pas d'effets indésirables
+  sur le long terme. Plusieurs questions restent en suspens, tout
+  d'abord cette phase de test doit généralement inclure des placebos
+  pour qu'il y ai un groupe témoin, puis, selon les protocoles
+  utilisés, différents dosages peuvent aussi être utilisés en fonction
+  des populations ciblées.
+
+  \closearticle
+
+  \headline{Entre Corruption et Tyrannie Sanitaire}
+
+  Le peuple français et plus largement les citoyens vivant en Occident
+  seraient-ils devenu les victimes d'une expérience sociale de grande
+  ampleur? Entre expérience de Milgram et de Stanford, une chose est
+  certaine, la population est de plus en plus divisée par la caste
+  politico-médiatique dont les dérives douteuses s'invitent de force
+  dans la vie de tout à chacun. D'autres entités sont aussi à blâmer,
+  telles que les multinationales pharmaceutiques, plus communément
+  surnommées “Big Pharma”. Ces nouveaux profiteurs de guerres ne sont
+  plus à une action crapuleuse près. Prises de nombreuses fois la main
+  dans le sac, et ce malgré des sanctions records, la prise de risque
+  reste bien trop souvent en faveur de l'exaction. Effectivement, le
+  profit étant largement supérieur à la punition, un simple calcul
+  entre le bénéfice et le risque encouru ne laisse aucun doute sur le
+  résultat final. Voici une courte liste non-exhaustive décrivant le
+  comportement de ces structures.
+
+  La société Moderna fut créée en 2010 dans le Massachussets aux
+  États-Unis. Elle est spécialisée dans la conception de vaccins
+  utilisant la technologie ARN messager. Créée récemment, elle n'a
+  aujourd'hui aucune infraction à son actif, mais cela ne saurait
+  tarder. \textbf{Le japon a dû supprimer 2,6 millions de doses}
+  \cite{NewsWeek:JapanModerna} du traitement génique Moderna après
+  avoir trouvé des particules métalliques issue d'une probable
+  contamination dans un lot.
+
+  La société Astrazeneca, fondée en 1999, est le résultat la fusion de
+  la société suédoise Astra AB créée en 1913 par Knut Sjöberg
+  (pharmacien) et la société anglaise Zeneca conçue en 1993. Elle se
+  spécialise dans les produits pharmaceutiques et la
+  biotechnologie. En 2010, Astrazeneca dû payer \textbf{520 millions
+    de dollars} pour avoir testé un neuroleptique
+  \cite{Justice:Astrazeneca2010} sur des personnes âgées, des vétérans
+  et des prisonniers, devenus alors cobayes. En 2016, elle dû payer
+  \textbf{5,5 millions de dollars} pour avoir corrompu des médecins en
+  Chine et en Russie. Le site GoodJobFirst
+  \cite{GoodJobFirst:Astrazeneca} recense \textbf{21 infractions} pour
+  environ \textbf{1,1 milliards de dollars de pénalité} (comptabilisé
+  depuis 2000).
+
+  La société Janssen fut créée en 1953 en Belgique par Paul Janssen
+  (chimiste/pharmacologue). Rachetée par le conglomérat Johnson \&
+  Johnson en 1961, elle rentre alors dans la branche Recherche et
+  Développement de cette structure. Elle se spécialise sur un large
+  spectre de trouble de la santé humaine. En 2013, elle dû payer
+  \textbf{2,2 milliards de dollars} pour pot-de-vins et médicaments
+  sans étiquettes \cite{Justice:JohnsonJohnson2013}. En 2019, elle
+  doit payer \textbf{465 millions de dollars} pour avoir contribué à
+  la crise des Opioïdes\cite{Justice:JohnsonJohnson2019}, puis
+  \textbf{116 millions de dollars} pour publicités
+  mensongères\cite{Justice:JohnsonJohnson2019-2}. Le site GoodJobFirst
+  \cite{GoodJobFirst:JohnsonJohnson} recense \textbf{58 infractions},
+  pour environ \textbf{4,2 milliards de dollars} de pénalités
+  (comptabilisé depuis 2000).
+
+  La société Pfizer, créée en 1849 à New York par les businessmen
+  Charles Pfizer et Charles F. Erhart, est spécialisée dans la
+  création de médicaments et de vaccins. Elle a eu le privilège de
+  recevoir l'accord en justice le plus élevé de l'histoire des
+  États-Unis en 2009: \textbf{2,3 milliards de dollars} pour marketing
+  frauduleux \cite{Justice:Pfizer2009}. En 2016, elle a dû payer
+  \textbf{784 millions de dollars} pour des affaires de fraudes sur
+  les prix\cite{Justice:Pfizer2016}. En 2013, elle a dû payer
+  \textbf{491 millions de dollars} pour de la commercialisation
+  illégale de médicaments pour des utilisations non
+  approuvées\cite{Justice:Pfizer2013}. En 2006, elle dû payer des
+  compensations à des familles nigériennes durant la pire épidémie de
+  méningite africaine, causant la mort de 100 enfants et des dommages
+  au foie\cite{Justice:Pfizer2006}. Le site GoodJobFirst
+  \cite{GoodJobFirst:Pfizer} recense \textbf{71 infractions}, pour
+  environ \textbf{4,6 milliards de dollars de pénalités} (comptabilisé
+  depuis 2000).
+
+  \closearticle
+
+  \headline{Défense Juridique}
+
+  L'actualité juridique a été très chargée. Maitre Carlo Alberto
+  Brusa, président de l'association Reaction19, a annoncé lors d'un
+  live \cite{Reaction19:JuridiqueNommage} le lancement d'une nouvelle
+  office juridique. Cette dernière est axée sur un problème de
+  définition des produits en cours d'utilisation. Effectivement, le
+  nom de ces produits est sensé être standard et partagé sur tous les
+  documents officiels, suivant une nomenclature stricte, ce qui n'est
+  malheureusement pas le cas aujourd'hui.
+
+  Le 27 août 2021, le collectif Reinfo-Liberté a annoncé porter
+  plainte contre X \cite{ReinfoLiberte:PlainteX} pour faux et usage de
+  faux, escroquerie et trafic d’influence. Cette plainte vise à
+  dénoncer un article scientifique de l'Institut Pasteur repris par le
+  Conseil Scientifique pour justifier la mise en place du ``passe
+  sanitaire''. Le même jour est annoncé que le pass sanitaire n'est
+  plus obligatoire dans les centres commerciaux d'Ile de France
+  \cite{CourrierDuSoir:SuspensionPassIdf}, suite à un ordre de
+  suspension effectué par les avocats Yoanne Sibille et Tarek
+  Koraitem. Quelques jours après, le même ordre est arrivé jusqu'en
+  Haut-Rhin \cite{SudOuest:SuspensionPassHautRhin}. Le gouvernement a
+  réagi en faisant appel \cite{}. Affaire à suivre de très près.
+
+  Le 31 août 2021 se tenait une audience des plus importantes au
+  tribunal de grande instance de Paris. Maitre Diane Protat plaidait
+  contre le pass sanitaire et l'obligation vaccinale
+  \cite{FranceSoir:MeProtatAudience}. Trois magistrats ont été nommés,
+  fait extrêmement rare pour ce genre d'affaires, qui montre l'ampleur
+  de la situation. Maitre Protat résume son action et son plan
+  d'attaque dans un article paru dans le journal France Soir
+  \cite{FranceSoir:MeProtatDebrief}.
+
+  Le 1er septembre 2021 voyait aussi la naissance du Syndicat Liberté
+  Santé (SLS) \cite{SyndicatLiberteSante:Naissance}. Ce nouveau
+  syndicat a été créé pour défendre les droits des professionnels de
+  santé en suivant une ligne de conduite stricte tout en contribuant
+  ”à la construction d’une société plus équitable, riche de ses
+  individualités, dans la paix, la prudence, la communication loyale,
+  l’écoute attentive, la discussion, et en ne nous laissant pas
+  acheter à des fins opposées à nos valeurs, mais restant ouvert à des
+  contributions bienveillantes''.
+
+  Le collectif ReinfoCovid met aussi à disposition une boite à outils
+  \cite{ReinfoCovid:BoiteOutil} permettant de vous donner différentes
+  options pour votre défense. Par ailleurs, soyez toujours prudent,
+  soyez toujours alerte et posez vous des questions
+  \cite{FloraHebridge:Conseil}. Ne prenez jamais pour acquis tout ce
+  qui est partagé, vérifiez les sources et cherchez par vous même. La
+  lutte ne fait que commencer. Courage à vous tous.
+  
+  \closearticle
+
+  \headline{Témoignages}
+
+  De nombreux témoignages en provenance de toute la France sont
+  partagés sur le réseau internet, par le bouche à oreille ou tout
+  simplement lors des manifestations et de nos nombreuses
+  rencontres.
+
+  Un pays ne se résume pas qu'à des chiffres sans âmes. Toutes ces
+  expériences que vous vivez mettent en avant les souffrances et les
+  inquiétudes vis à vis de la situation actuelle. Pour vous permettre
+  de vous faire entendre, nous vous proposons l'ouverture des colonnes
+  du Glasen et ainsi pouvoir partager votre vécu.
+  
+  \closearticle
+  
+\begin{center}
+  \rule[1pt]{4.5cm}{1pt}
+  \textbf{\url{https://t.me/leglasen}}
+  \includegraphics[width=4.5cm,height=4.5cm]{qrcode-telegram.eps}
+  \textbf{\href{mailto:leglasen@protonmail.com}{leglasen@protonmail.com}} \\
+  \vspace*{0.2cm}
+  \footnotesize\textbf{\href{https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.fr}{CC BY-NC-ND 4.0}}
+  \vspace*{1cm}
+  \rule[1pt]{4.5cm}{1pt}
+\end{center}
+
+\printbibliography[heading=none]
+
+\end{multicols}
+\end{document}

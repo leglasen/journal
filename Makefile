@@ -14,6 +14,7 @@ $(OUTPUT)/newspaper-mod.sty:
 	cp newspaper-mod.sty $@
 
 all: $(OUTPUT) $(OUTPUT)/bibliographie.bib $(OUTPUT)/newspaper-mod.sty
+	cp -r assets $(OUTPUT)
 	cp volume-*.tex $(OUTPUT)
 	cd $(OUTPUT); 				\
 	for volume in *.tex; do 		\
